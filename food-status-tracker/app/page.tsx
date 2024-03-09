@@ -5,6 +5,10 @@ export default function Home() {
       <div>
         <h1>Creating a learning environment for using next.js, typescript, and tailwind.CSS</h1>
         <h1>Time to experiment as much as possible</h1>
+        <button className="animate-bounce bg-black text-white">Bouncing Button</button>
+        <button className="animate-ping bg-black text-white">Pinging Button</button>
+        <button className="animate-pulse bg-black text-white">Pulsing Button</button>
+        <button className="transition duration-300 delay-200 hover:delay-300 bg-black text-white">Bouncing Button</button>
       </div>
       <div className="flex min-h-screen flex-col items-center p-24">
           <h1 className="font-serif text-5xl font-black text-blue-500">Albert's Food Tracker</h1>
